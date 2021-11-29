@@ -20,7 +20,7 @@ jobs:
       with:
         node-version: '14'
     - run: npm install
-    - run: cd Angular/Example-Apps/angular5-cli-jscrambler-boilerplate/
+    - run: cd Angular/Example-Apps/angular5-cli-jscrambler-boilerplate
     - run: npm test
 
     - name: call scrambnler
