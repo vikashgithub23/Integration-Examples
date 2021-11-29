@@ -21,8 +21,11 @@ jobs:
       with:
         node-version: 14
         cache: 'npm'
+    - name: call scrambnler
+      run: npm i --save-dev jscrambler
     - name: call jscrambler
       working-directory: "./Angular/Example-Apps/angular5-cli-jscrambler-boilerplate/"
-    - run: npm i --save-dev jscrambler
-    - run: npm run build
+      run: npm run build
+      
+    
     
