@@ -1,9 +1,9 @@
 {
   "keys": {
-    "accessKey": "X",
-    "secretKey": "Y"
+    "accessKey": "E3C2C8E05508435CC8817307CE51B38773360B84",
+    "secretKey": "C88F95E97D298A93288516405796A19156EE7A45"
   },
-  "applicationId": "Z",
+  "applicationId": "619e0233e53ca700196a596b",
   "filesSrc": [
     "./dist/**/*.html",
     "./dist/**/*.js"
